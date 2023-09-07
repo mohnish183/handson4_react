@@ -1,14 +1,14 @@
 import React from "react";
 import "./student.css";
 import {
-  BrowserRouter,
+ 
   Link,
-  Route,
-  Routes,
+ 
+ 
   useNavigate,
 } from "react-router-dom";
-import App from "../App";
-import StudentDesc from "./Student-Desc";
+
+
 
 const Student = (props) => {
   console.log(props.stdData);
